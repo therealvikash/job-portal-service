@@ -12,7 +12,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "job-description")
+@Table(name = "job_description")
 public class JobDescription {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
